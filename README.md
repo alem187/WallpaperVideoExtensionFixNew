@@ -1,8 +1,9 @@
-# WallpaperVideoExtensionFix
-
+# WallpaperVideoExtensionFix (For MacOS 26)
+CREDITS TO PROTON0
 **PROJECT STATUS: ABANDONED**
 
-WallpaperVideoExtensionFix is a lightweight application designed to automatically terminate the `WallpaperVideoExtension` service each time you log in to macOS. If you've experienced issues with custom Aerial wallpapers, this tool might help. The app runs quietly in the background, without generating logs or indicators, ensuring a seamless experience.
+WallpaperVideoExtensionFix is a lightweight application designed to automatically terminate the `WallpaperAgent` service each time you log in to macOS. If you've experienced issues with custom Aerial wallpapers, this tool might help. The app runs quietly in the background, without generating logs or indicators, ensuring a seamless experience.
+The old Fix does not work anymore for the newer MacOS version, since the service was renamed to `WallpaperAgent`. 
 
 Features
  - Runs silently, with no persistent UI or notifications.
@@ -14,7 +15,7 @@ Issues with this fix
 
 # Installation
 
-1. [Download the latest release](https://github.com/proton0/wallpapervideoextensionfix/releases) as a compiled binary or compile it yourself
+1. Download the latest release as a compiled binary or compile it yourself
 
 2. Extract the binary from the downloaded zip file.
 
@@ -37,4 +38,4 @@ WallpaperVideoExtensionFix was originally a part of a larger project named Aeria
 
 # Can I Fork This?
 
-Yes, just credit me (Proton0)
+Yes, just credit me
